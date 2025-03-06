@@ -1,0 +1,4 @@
+v 4
+file "/home/charlie/FPGA/modules/FYP/mcp3008/" "./mcp3008.vhd" "2a873eef06a319bf6a42591e5bb4220eb69ec231" "20250306211413.194":
+  entity mcp3008_interface at 1( 0) + 0 on 11;
+  architecture behavioral of mcp3008_interface at 23( 994) + 0 on 12;

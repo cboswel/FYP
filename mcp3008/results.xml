@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1741295653" />
+    <testcase name="mcp3008_interface_test" classname="test" file="/home/charlie/FPGA/modules/FYP/mcp3008/test.py" lineno="6" time="0.0022573471069335938" sim_time_ns="460.001" ratio_time="203779.47130376002" />
+  </testsuite>
+</testsuites>

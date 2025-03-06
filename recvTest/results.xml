@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1741017754" />
+    <testcase name="spi_loopback_test" classname="recv_test" file="/home/charlie/FPGA/modules/spiTest/recvTest/recv_test.py" lineno="7" time="0.003956317901611328" sim_time_ns="600.001" ratio_time="151656.41763914668">
+      <failure message="Test failed with RANDOM_SEED=1741017754" />
+    </testcase>
+  </testsuite>
+</testsuites>

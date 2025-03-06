@@ -1,0 +1,10 @@
+v 4
+file / "/home/charlie/FPGA/modules/spiTest/recvTest/top.vhd" "c6e624fb84b2d75fe11ac2cc6e64c11bd45198bd" "20250303160234.638":
+  entity top at 1( 0) + 0 on 15;
+  architecture behavioral of top at 16( 277) + 0 on 16;
+file / "/home/charlie/FPGA/modules/spiTest/recvTest/spi.vhd" "4b91983f16a4a084a50604829e9fe9be885f9a63" "20250303160234.638":
+  entity spi_transmitter at 1( 0) + 0 on 11;
+  architecture behavioral of spi_transmitter at 20( 620) + 0 on 12;
+file / "/home/charlie/FPGA/modules/spiTest/recvTest/spiRecv.vhd" "e7435c07648728e90d8d53cc336e2e845b4b1362" "20250303160234.638":
+  entity spi_recv at 1( 0) + 0 on 13;
+  architecture behavioral of spi_recv at 19( 544) + 0 on 14;
