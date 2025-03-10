@@ -1,2 +1,6 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/tmp/nvim.charlie/WjDd9B/2/mcp3008.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "/tmp/nvim.charlie/ic2IsT/12/mcp3008.vhd" into library work
 INFO: [VRFC 10-3107] analyzing entity 'MCP3008_Interface'
+ERROR: [VRFC 10-2989] 'counter' is not declared [/tmp/nvim.charlie/ic2IsT/12/mcp3008.vhd:39]
+ERROR: [VRFC 10-2989] 'shift' is not declared [/tmp/nvim.charlie/ic2IsT/12/mcp3008.vhd:40]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [/tmp/nvim.charlie/ic2IsT/12/mcp3008.vhd:21]
+INFO: [VRFC 10-8704] VHDL file '/tmp/nvim.charlie/ic2IsT/12/mcp3008.vhd' is ignored due to errors

@@ -14,9 +14,7 @@ entity MCP3008_Interface is
         mosi      : out std_logic;  -- SPI data to ADC (DIN)
         cs        : out std_logic;  -- Chip Select (active low)
         adc_data  : out std_logic_vector(9 downto 0); -- 10-bit ADC value
-        done      : out std_logic;   -- Done signal (high when conversion is complete)
-        counter   : out std_logic_vector(7 downto 0);
-        shift     : out std_logic_vector(4 downto 0)
+        done      : out std_logic   -- Done signal (high when conversion is complete)
     );
 end MCP3008_Interface;
 
