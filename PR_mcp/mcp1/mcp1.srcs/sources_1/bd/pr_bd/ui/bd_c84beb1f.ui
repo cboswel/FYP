@@ -1,0 +1,49 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.491546",
+   "Default View_TopLeft":"340,-71",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 2470 -y 350 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 2470 -y 370 -defaultsOSRD
+preplace portBus ja -pg 1 -lvl 1 -x 390 -y 980 -defaultsOSRD -bot
+preplace portBus jb -pg 1 -lvl 1 -x 290 -y 980 -defaultsOSRD -bot
+preplace inst processing_system7_0 -pg 1 -lvl 6 -x 2220 -y 400 -defaultsOSRD
+preplace inst dma -pg 1 -lvl 4 -x 1510 -y 350 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -x 1150 -y 130 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 390 -y 350 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 5 -x 1850 -y 390 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 3 -x 1150 -y 640 -defaultsOSRD
+preplace inst MCP3008_Interface_0 -pg 1 -lvl 1 -x 390 -y 590 -defaultsOSRD
+preplace inst mcp_filler_0 -pg 1 -lvl 2 -x 760 -y 610 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -x 390 -y 870 -defaultsOSRD -orient R270
+preplace netloc MCP3008_Interface_0_adc_data 1 1 1 N 610
+preplace netloc MCP3008_Interface_0_cs 1 1 1 570 590n
+preplace netloc MCP3008_Interface_0_done 1 1 1 N 630
+preplace netloc MCP3008_Interface_0_mosi 1 1 1 580 570n
+preplace netloc MCP3008_Interface_0_sclk 1 1 1 590 550n
+preplace netloc jb_1 1 0 1 180 640n
+preplace netloc mcp_filler_0_adc_chan 1 0 3 210 700 NJ 700 920
+preplace netloc mcp_filler_0_adc_diff 1 0 3 200 710 NJ 710 940
+preplace netloc mcp_filler_0_adc_start 1 0 3 190 720 NJ 720 930
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 7 170 730 600 730 980 350 1320 460 1690 510 2000 510 2450
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 7 210 480 NJ 480 990 520 NJ 520 NJ 520 NJ 520 2440
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 5 180 450 570 390 1000 390 1310 450 1700
+preplace netloc xlconcat_0_dout 1 0 1 N 950
+preplace netloc axi_mem_intercon_M00_AXI 1 5 1 N 390
+preplace netloc axis_data_fifo_0_M_AXIS 1 3 1 1330J 330n
+preplace netloc dma_M_AXI_S2MM 1 4 1 N 330
+preplace netloc mcp_filler_0_interface_axis 1 2 1 950 580n
+preplace netloc processing_system7_0_DDR 1 6 1 NJ 350
+preplace netloc processing_system7_0_FIXED_IO 1 6 1 NJ 370
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 5 1000 10 NJ 10 NJ 10 NJ 10 2440
+preplace netloc ps7_0_axi_periph_M00_AXI 1 3 1 1320 130n
+levelinfo -pg 1 -20 390 760 1150 1510 1850 2220 2470
+pagesize -pg 1 -db -bbox -sgen -120 -20 2590 1080
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_ps7_cnt":"1"
+}

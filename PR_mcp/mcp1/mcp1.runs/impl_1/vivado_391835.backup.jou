@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Mar 17 14:03:07 2025
+# Process ID: 391835
+# Current directory: /home/charlie/FPGA/mcp1/mcp1.runs/impl_1
+# Command line: vivado -log pr_bd_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pr_bd_wrapper.tcl -notrace
+# Log file: /home/charlie/FPGA/mcp1/mcp1.runs/impl_1/pr_bd_wrapper.vdi
+# Journal file: /home/charlie/FPGA/mcp1/mcp1.runs/impl_1/vivado.jou
+# Running On        :work
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.4 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i5-1340P
+# CPU Frequency     :400.362 MHz
+# CPU Physical cores:12
+# CPU Logical cores :16
+# Host memory       :16462 MB
+# Swap memory       :2147 MB
+# Total Virtual     :18609 MB
+# Available Virtual :9254 MB
+#-----------------------------------------------------------
+source pr_bd_wrapper.tcl -notrace

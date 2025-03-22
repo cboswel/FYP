@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Mar 16 18:26:49 2025
+# Process ID: 641881
+# Current directory: /home/charlie/FPGA/mcp1/mcp1.runs/pr_bd_axis_data_fifo_0_0_synth_1
+# Command line: vivado -log pr_bd_axis_data_fifo_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pr_bd_axis_data_fifo_0_0.tcl
+# Log file: /home/charlie/FPGA/mcp1/mcp1.runs/pr_bd_axis_data_fifo_0_0_synth_1/pr_bd_axis_data_fifo_0_0.vds
+# Journal file: /home/charlie/FPGA/mcp1/mcp1.runs/pr_bd_axis_data_fifo_0_0_synth_1/vivado.jou
+# Running On        :work
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.4 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i5-1340P
+# CPU Frequency     :3200.032 MHz
+# CPU Physical cores:12
+# CPU Logical cores :16
+# Host memory       :16462 MB
+# Swap memory       :2147 MB
+# Total Virtual     :18609 MB
+# Available Virtual :8565 MB
+#-----------------------------------------------------------
+Sourcing tcl script '/home/charlie/.Xilinx/Vivado/Vivado_init.tcl'
+source pr_bd_axis_data_fifo_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1376.078 ; gain = 26.836 ; free physical = 176 ; free virtual = 3578
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: pr_bd_axis_data_fifo_0_0
+Command: synth_design -top pr_bd_axis_data_fifo_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Device 21-9227] Part: xc7z020clg400-1 does not have CEAM library.
